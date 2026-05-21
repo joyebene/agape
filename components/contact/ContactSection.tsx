@@ -65,7 +65,7 @@ export default function ContactSection() {
           </div>
 
           {/* Contact Form */}
-          <div className="bg-[#F8F9FC] p-8 md:p-12 rounded-3xl">
+          <div className="bg-[#F8F9FC] p-6 sm:p-8 md:p-12 rounded-3xl">
             <h3 className="text-2xl font-semibold mb-8 text-[#0A2540]">Send Us a Message</h3>
             
             <form onSubmit={handleSubmit} className="space-y-6">

@@ -25,7 +25,7 @@ const Input: React.FC<InputProps> = ({
   placeholder,
   options = [],
 }) => {
-  const baseStyles = "w-full px-5 py-4 rounded-2xl border border-gray-200 focus:outline-none focus:border-[#E8B923] bg-white transition-colors";
+  const baseStyles = "w-full px-5 py-3 sm:py-4 rounded-2xl border border-gray-200 focus:outline-none focus:border-[#E8B923] bg-white transition-colors text-black";
 
   return (
     <div>
@@ -50,7 +50,7 @@ const Input: React.FC<InputProps> = ({
           value={value}
           onChange={onChange}
           required={required}
-          className={`${baseStyles} appearance-none text-black`}
+          className={`${baseStyles} appearance-none`}
         >
           {options.map(option => (
             <option key={option.value} value={option.value}>
