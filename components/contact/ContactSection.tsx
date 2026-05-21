@@ -43,7 +43,7 @@ export default function ContactSection() {
             <div className="space-y-8">
               <div>
                 <p className="text-gray-500 mb-1">Email</p>
-                <a href="mailto:agapestewardshipsupport@gmail.com" className="text-lg text-black hover:text-[#E8B923] transition-colors">
+                <a href="mailto:agapestewardshipsupport@gmail.com" className="text-lg underline text-[#E8B923] transition-colors">
                   agapestewardshipsupport@gmail.com
                 </a>
               </div>
