@@ -59,7 +59,7 @@ export default function Process() {
               </div>
 
               {/* Icon */}
-              <div className="text-5xl mb-6 text-linear-to-br from-black to-[#3d3005]">{step.icon}</div>
+              <div className="text-5xl mb-6 text-black">{step.icon}</div>
 
               <h3 className="text-2xl font-semibold text-[#0A2540] mb-4">
                 {step.title}

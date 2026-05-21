@@ -50,7 +50,7 @@ const Input: React.FC<InputProps> = ({
           value={value}
           onChange={onChange}
           required={required}
-          className={`${baseStyles} appearance-none`}
+          className={`${baseStyles} appearance-none text-black`}
         >
           {options.map(option => (
             <option key={option.value} value={option.value}>

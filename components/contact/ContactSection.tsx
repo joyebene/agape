@@ -43,14 +43,14 @@ export default function ContactSection() {
             <div className="space-y-8">
               <div>
                 <p className="text-gray-500 mb-1">Email</p>
-                <a href="mailto:agapestewardshipsupport@gmail.com" className="text-lg hover:text-[#E8B923] transition-colors">
+                <a href="mailto:agapestewardshipsupport@gmail.com" className="text-lg text-black hover:text-[#E8B923] transition-colors">
                   agapestewardshipsupport@gmail.com
                 </a>
               </div>
 
               <div>
                 <p className="text-gray-500 mb-1">Headquarters</p>
-                <p className="text-lg">Nigeria</p>
+                <p className="text-lg text-black">Nigeria</p>
               </div>
 
               <div>
@@ -121,7 +121,7 @@ export default function ContactSection() {
 
               <button
                 type="submit"
-                className="w-full bg-[#0A2540] text-white py-5 rounded-2xl font-semibold hover:bg-[#E8B923] hover:text-[#0A2540] transition-all text-lg"
+                className="w-full bg-[#0A2540] text-white py-3 sm:py-4 md:py-5 rounded-2xl font-semibold hover:bg-[#E8B923] hover:text-[#0A2540] transition-all text-lg"
               >
                 Send Message
               </button>

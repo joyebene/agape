@@ -56,7 +56,7 @@ export default function WhyAgape() {
               key={index}
               className="bg-white border border-gray-100 hover:border-[#E8B923]/30 rounded-3xl p-8 transition-all duration-300 hover:shadow-xl group"
             >
-              <div className="text-5xl mb-6">{item.icon}</div>
+              <div className="text-5xl mb-6 text-black">{item.icon}</div>
               <h3 className="text-2xl font-semibold text-[#0A2540] mb-4 group-hover:text-[#E8B923] transition-colors">
                 {item.title}
               </h3>

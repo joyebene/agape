@@ -58,7 +58,7 @@ export default function Services() {
                 <div className="absolute inset-0 bg-linear-to-t from-black/70 via-black/30 to-transparent" />
                 
                 {/* Icon Overlay */}
-                <div className="absolute top-6 right-6 w-14 h-14 bg-white/90 backdrop-blur-md rounded-2xl flex items-center justify-center text-3xl shadow-lg">
+                <div className="absolute top-6 right-6 w-14 h-14 bg-white/90 text-black backdrop-blur-md rounded-2xl flex items-center justify-center text-3xl shadow-lg">
                   {service.icon}
                 </div>
               </div>

@@ -67,7 +67,7 @@ export default function InvestmentApproach() {
                 <div className="w-16 h-16 mx-auto bg-white border-4 border-[#0A2540] text-[#0A2540] rounded-full flex items-center justify-center text-xl font-bold mb-6 z-10 relative">
                   {step.num}
                 </div>
-                <h4 className="font-semibold text-lg mb-2">{step.title}</h4>
+                <h4 className="font-semibold text-lg mb-2 text-black">{step.title}</h4>
                 <p className="text-gray-600 text-sm">{step.desc}</p>
               </div>
             ))}
