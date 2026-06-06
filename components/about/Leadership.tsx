@@ -6,25 +6,22 @@ export default function Leadership() {
       name: "Dr. Chinedu Okoro",
       role: "Chief Executive Officer (CEO)",
       description: "Visionary leader with over 15 years of experience in financial markets and wealth management.",
-      image: "https://picsum.photos/id/64/600/800"
+      image: "/img/founder.jpg"
     },
     {
       name: "Aisha Bello",
       role: "Chief of Staff",
       description: "Ensures operational excellence and seamless coordination across all departments.",
-      image: "https://picsum.photos/id/65/600/800"
     },
     {
       name: "Michael Adeyemi",
       role: "Financial Manager",
       description: "Oversees capital allocation, portfolio performance, and financial strategy.",
-      image: "https://picsum.photos/id/201/600/800"
     },
     {
       name: "Fatima Okonkwo",
       role: "Risk Manager",
       description: "Leads our disciplined risk management framework to protect and grow partner capital.",
-      image: "https://picsum.photos/id/1005/600/800"
     },
   ];
 
@@ -43,16 +40,18 @@ export default function Leadership() {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {leaders.map((leader, index) => (
             <div key={index} className="group">
-              <div className="relative h-80 rounded-3xl overflow-hidden mb-6 shadow-lg">
-                <Image
-                  src={leader.image} 
-                  alt={leader.name}
-                  fill
-                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
-                />
-                <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent" />
-              </div>
-              
+              {leader.image && (
+                <div className="relative h-80 rounded-3xl overflow-hidden mb-6 shadow-lg">
+                  <Image
+                    src={leader.image}
+                    alt={leader.name}
+                    fill
+                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                  <div className="absolute inset-0 bg-linear-to-t from-black/70 to-transparent" />
+                </div>
+              )}
+
               <h3 className="text-xl font-semibold text-[#0A2540]">{leader.name}</h3>
               <p className="text-[#E8B923] font-medium mb-3">{leader.role}</p>
               <p className="text-gray-600 text-sm leading-relaxed">
